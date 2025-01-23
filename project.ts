@@ -1,6 +1,7 @@
 import { Resume } from './classes/resume.js';
 
 
+
 const resume = new Resume( {
   name: 'Byris Fells',
   email: 'byris.fells@gmail.com',
@@ -20,6 +21,7 @@ const resume = new Resume( {
 });
 
 resume.printResume();
+
 
 
 
